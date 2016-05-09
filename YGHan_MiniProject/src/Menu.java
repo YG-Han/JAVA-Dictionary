@@ -5,7 +5,7 @@ public class Menu {
 	
 	public void MenuPrint(){
 		System.out.println("Menu in YG_Dictionary");
-		System.out.println("1.Check Word   2.Add Word   3.Delete Word  4.Check List  5.Save&End");
+		System.out.println("1.Check Word   2.Add Word   3.Delete Word  4.Check List  5.Save&Exit");
 		System.out.print("Press the Number: ");
 	}
 	

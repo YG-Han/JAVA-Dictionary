@@ -1,0 +1,7 @@
+banana:a long yellow fruit.
+YG_Han:The computer science&engineering stuedent in SKKU to make this program.
+IntelliJ:The tool for JAVA, HTML, JAVASCRIPT etc.
+apple:a delicious red fruit.
+Apple:The company to make iPhone.
+SKKU:The best university in Korea.
+Kubera:My favorite webtoon.

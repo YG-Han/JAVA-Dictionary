@@ -16,7 +16,7 @@ public class HashmapToFile {
 			}
 			fWriter.close();
 		}catch(IOException e){
-			System.out.println("***파일저장 오류입니다.***");
+			System.out.println("***error by saving file.***");
 		}
 	}
 }

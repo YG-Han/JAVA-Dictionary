@@ -20,12 +20,12 @@ public class FileToHashmap {
 				hMap.put(sTokenizer.nextToken(),sTokenizer.nextToken());
 				}
 			}else{
-				System.out.println("기존 파일이 존재하지 않습니다. 새 파일을 생성합니다.");
+				System.out.println("The original file does not exist. Create new file.");
 				fWriter = new FileWriter(file);
 				fWriter.close();
 			}
 		}catch(IOException e){
-			System.out.println("***파일불러오기 오류입니다.***");
+			System.out.println("***error by loading file.***");
 		}
 	}
 }

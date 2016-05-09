@@ -22,7 +22,7 @@ public class YG_Dictionary {
 				dicMenu.ListWord();
 				break;
 			case "5":
-				System.out.println("\n프로그램을 종료합니다. \n감사합니다. \nby YG_Han \n\n");
+				System.out.println("\nTo end this program \nThank you \nby YG_Han \n\n");
 				blCheckWhile = false;
 			default:		
 			}

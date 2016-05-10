@@ -1,5 +1,5 @@
-# JAVA_Dictionary
-JAVA mini_project in SKKU
+# JAVA-Dictionary
+JAVA mini-project in SKKU
 
 This is a Java_Program_source to act like dictionary.
 

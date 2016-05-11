@@ -17,6 +17,7 @@ public class HashmapToFile {
 			fWriter.close();
 		}catch(IOException e){
 			System.out.println("***error by saving file.***");
+			YG_Dictionary.blCheckWhile = false;
 		}
 	}
 }

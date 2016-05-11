@@ -1,12 +1,12 @@
 // Programmed by YG_Han in SKKU
 
 public class YG_Dictionary {
+	public static boolean blCheckWhile = true;
 	public static void main(String[] args) throws Exception{
-		boolean blCheckWhile = true;
 		Menu dicMenu = new Menu();
 		FileToHashmap.Open();
 		
-		do{
+		while(blCheckWhile){
 			dicMenu.MenuPrint();
 			switch(dicMenu.InputMenu()){
 			case "1":
@@ -26,7 +26,7 @@ public class YG_Dictionary {
 				blCheckWhile = false;
 			default:		
 			}
-		}while(blCheckWhile);
+		}
 		
 		HashmapToFile.Close();
 	}

@@ -17,12 +17,17 @@ public class Menu {
 		System.out.print("Enter the Word to check: ");
 		String s1 = sc.nextLine();
 		if(FileToHashmap.hMap.containsKey(s1)){
-			System.out.println("The means of this word is ["+FileToHashmap.hMap.get(s1)+"].");
+			System.out.println("The meaning of this word is ["+FileToHashmap.hMap.get(s1)+"].");
 		}
 		else{		
 			System.out.println("This word is not saved.");
+			System.out.println("Do you want to add it?     1.Yes  2.No");
+			System.out.print("Press the Number: ");
+			if(sc.nextLine().equals("1")) {
+				System.out.print("Enter the meaning: ");
+				FileToHashmap.hMap.put(s1, sc.nextLine());
+			}
 		}
-		System.out.println();
 		System.out.println();
 	}
 	
@@ -30,11 +35,15 @@ public class Menu {
 		System.out.print("Enter the Word to add: ");
 		String s1 = sc.nextLine();
 		if(FileToHashmap.hMap.containsKey(s1)){
-			System.out.println("This word already exists. Enter the means to modify.");
-			FileToHashmap.hMap.put(s1, sc.nextLine());
+			System.out.println("This word already exists.");
+			System.out.println("Do you want to modify meaning?     1.Yes  2.No");
+			if(sc.nextLine().equals("1")) {
+				System.out.print("Enter the meaning to modify:");
+				FileToHashmap.hMap.put(s1, sc.nextLine());
+			}
 		}
 		else{
-			System.out.print("Enter the means: ");
+			System.out.print("Enter the meaning: ");
 			FileToHashmap.hMap.put(s1, sc.nextLine());
 		}
 		System.out.println("This word is added.");
@@ -52,10 +61,21 @@ public class Menu {
 			System.out.println("This word does not exist.");
 		}
 		System.out.println();
-		System.out.println();
 	}
+
 	public void ListWord(){
 		System.out.println("This is a list of saved words.");
-		System.out.println(FileToHashmap.hMap.keySet());
+		TreeMap<String,String> tMap = new TreeMap<>(FileToHashmap.hMap);
+		Iterator<String> treeMapIter = tMap.keySet().iterator();
+		System.out.print("[");
+		while(true){
+			String key= treeMapIter.next();
+			System.out.print(key);
+			if(!treeMapIter.hasNext())
+				break;
+			System.out.print(", ");
+		}
+		System.out.print("]");
+		System.out.println();
 	}
 }

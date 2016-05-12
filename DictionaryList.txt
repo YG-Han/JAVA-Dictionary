@@ -3,5 +3,8 @@ YG_Han:The computer science&engineering stuedent in SKKU to make this program.
 IntelliJ:The tool for JAVA, HTML, JAVASCRIPT etc.
 apple:a delicious red fruit.
 Apple:The company to make iPhone.
+dictionary:This is a book in which the words of a language are listed aphabetically, together with their meanings.
 SKKU:The best university in Korea.
 Kubera:My favorite webtoon.
+Eclipse:The IDE for JAVA.
+SAMSUNG:The best corporation in Korea.

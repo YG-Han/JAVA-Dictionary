@@ -2,14 +2,14 @@
 // 2016.05.07~
 
 public class YG_Dictionary {
-	public static boolean blCheckWhile = true;	//To errored by FileOpen or put the exit menu break the While loop.
+	public static boolean blCheckWhile = true;	//To error by FileOpen or put the exit menu break the While loop.
+
 	public static void main(String[] args) throws Exception{
 		Menu dicMenu = new Menu();
-		FileToHashmap.Open();
+		FileToHashmap.Open(); //File Open
 
 		while(blCheckWhile){
-			System.out.println();
-			System.out.println("*********************************************************************************");
+			System.out.println("\n***********************************************************************************");
 			dicMenu.MenuPrint();
 			switch(dicMenu.InputMenu()){
 			case "1":
@@ -27,11 +27,13 @@ public class YG_Dictionary {
 			case "5":
 				System.out.println("\nTo exit this program \nThank you \nby YG_Han \n\n");
 				blCheckWhile = false;
-			default:		
+				break;
+			default:
+				System.out.println("Invalid enter, please re-press the Number.");
 			}
-			System.out.println("*********************************************************************************");
+			System.out.println("***********************************************************************************\n");
 		}
 		
-		HashmapToFile.Close();
+		HashmapToFile.Close(); //File save&close
 	}
 }

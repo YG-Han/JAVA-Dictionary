@@ -26,6 +26,7 @@ public class FileToHashmap {
 			}
 		}catch(IOException e){
 			System.out.println("***error by loading file.***");
+			YG_Dictionary.blCheckWhile = false;
 		}
 	}
 }

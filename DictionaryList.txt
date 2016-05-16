@@ -1,10 +1,23 @@
 banana:a long yellow fruit.
-YG_Han:The computer science&engineering stuedent in SKKU to make this program.
-IntelliJ:The tool for JAVA, HTML, JAVASCRIPT etc.
-apple:a delicious red fruit.
-Apple:The company to make iPhone.
-dictionary:This is a book in which the words of a language are listed aphabetically, together with their meanings.
+IntelliJ:The IDE for JAVA, HTML, JAVASCRIPT etc.
+birthday:the anniversary of the date on which someone were born. 
+calendar:a chart which displays the date, week, month, year.
+destiny:evrything that happens to them during their life.
 SKKU:The best university in Korea.
 Kubera:My favorite webtoon.
 Eclipse:The IDE for JAVA.
+change:to becomes different.
+icon:the symbol.
+gather:to collect something.
+house:building in which people live, usually the people belonging to one family.
 SAMSUNG:The best corporation in Korea.
+YG_Han:The computer science&engineering stuedent in SKKU to make this program.
+apple:a delicious red fruit.
+Apple:The company to make iPhone.
+dictionary:This is a book in which the words of a language are listed aphabetically, together with their meanings.
+answer:The proper response to some questions.
+find:to see something that you want.
+name:the label called the person.
+avoid:To prevent, evade and dlude, it from happening.
+zoo:dthe place that gather animals and see their.
+highschool:the academy between middleschhol and university.
